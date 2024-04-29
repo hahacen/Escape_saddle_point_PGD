@@ -27,6 +27,6 @@ def sample_from_ball(d, radius):
     U = np.random.uniform(0, 1)
     # Scale Y by (U^(1/d)) / ||Y|| to get a uniformly sampled point from the ball
     point = radius * (U ** (1/d)) * Y / np.linalg.norm(Y)
-    print("point here!:", point)
+    # print("point here!:", point)
     
     return point
